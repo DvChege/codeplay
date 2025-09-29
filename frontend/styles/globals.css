@@ -7,20 +7,17 @@ body {
   @apply font-sans bg-gradient-to-br from-blue-50 to-purple-100 min-h-screen;
 }
 
-/* Optional: smooth scroll for better UX */
+/* Smooth scroll */
 html {
   scroll-behavior: smooth;
 }
 
-/* Default link style using @layer */
+/* Default link style (must be inside @layer) */
 @layer components {
   a {
     @apply text-brand hover:text-brand-dark no-underline;
   }
-}
 
-/* Optional: code styling for code blocks */
-@layer components {
   code {
     @apply font-mono bg-gray-100 p-1 rounded text-sm;
   }
