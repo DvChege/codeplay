@@ -2,22 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Custom brand classes */
+@layer utilities {
+  .text-brand {
+    @apply text-blue-600;
+  }
+  .hover\:text-brand-dark:hover {
+    @apply text-blue-800;
+  }
+}
+
 /* Global font */
 body {
   @apply font-sans bg-gradient-to-br from-blue-50 to-purple-100 min-h-screen;
 }
 
-/* Optional: smooth scroll for better UX */
 html {
   scroll-behavior: smooth;
 }
 
-/* Optional: default link style */
 a {
   @apply text-brand hover:text-brand-dark no-underline;
 }
 
-/* Optional: code styling for code blocks */
 code {
   @apply font-mono bg-gray-100 p-1 rounded text-sm;
 }
