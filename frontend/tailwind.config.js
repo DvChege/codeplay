@@ -7,13 +7,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        brand: {
-          light: "#A78BFA",     // light purple
-          DEFAULT: "#7C3AED",   // main brand purple
-          dark: "#4C1D95",      // dark purple
-        },
+        brand: "#4F46E5", // Indigo-600
+        "brand-dark": "#3730A3", // Indigo-800
       },
     },
   },
   plugins: [],
-}
+};
