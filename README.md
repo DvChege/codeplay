@@ -41,7 +41,7 @@ Built with **Next.js, TailwindCSS, Node.js, and Netlify Functions**, it combines
 
 ---
 
-## 🚀 Deployment (Netlify Full-Stack)
+## 🚀 Deployment 
 
 ### 1. Clone the Repo
 
@@ -106,12 +106,12 @@ On Vercel, add the same in:
 
 ## 📡 API Endpoints
 
-All serverless APIs live in `/netlify/functions/`.
+All serverless APIs live in `/vercel/functions/`.
 
 Example:
 
 ```js
-// netlify/functions/hello.js
+// vercel/functions/hello.js
 export async function handler(event, context) {
   return {
     statusCode: 200,
@@ -123,7 +123,7 @@ export async function handler(event, context) {
 Access at:
 
 ```
-https://your-site.netlify.app/.netlify/functions/hello
+https://your-site.vercel.app/.netlify/functions/hello
 ```
 
 ---
