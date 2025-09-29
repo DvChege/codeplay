@@ -7,18 +7,19 @@ body {
   @apply font-sans bg-gradient-to-br from-blue-50 to-purple-100 min-h-screen;
 }
 
-/* Smooth scroll */
+/* Optional: smooth scroll for better UX */
 html {
   scroll-behavior: smooth;
 }
 
-/* Default link style (must be inside @layer) */
-@layer components {
+/* Define link style inside a layer so Tailwind picks up custom colors */
+@layer base {
   a {
     @apply text-brand hover:text-brand-dark no-underline;
   }
+}
 
-  code {
-    @apply font-mono bg-gray-100 p-1 rounded text-sm;
-  }
+/* Optional: code styling for code blocks */
+code {
+  @apply font-mono bg-gray-100 p-1 rounded text-sm;
 }
