@@ -4,12 +4,12 @@
 
 # 🎮 CodePlay – Interactive Coding Platform
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/your-netlify-site-id/deploy-status)](https://app.netlify.com/sites/your-netlify-site-name/deploys)
+[![Vercel Status](https://api.netlify.com/api/v1/badges/your-vercel-site-id/deploy-status)](https://app.vercel.com/sites/your-vercel-site-name/deploys)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Next.js](https://img.shields.io/badge/Next.js-13-black?logo=next.js)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.0-38B2AC?logo=tailwind-css\&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-18-green?logo=node.js\&logoColor=white)
-![Netlify](https://img.shields.io/badge/Deployed%20on-Netlify-00C7B7?logo=netlify\&logoColor=white)
+![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-00C7B7?logo=netlify\&logoColor=white)
 
 CodePlay is a **full-stack interactive coding platform** that helps learners practice coding challenges, build projects, and improve programming skills in a fun, game-like environment.
 
@@ -20,11 +20,11 @@ Built with **Next.js, TailwindCSS, Node.js, and Netlify Functions**, it combines
 ## ✨ Features
 
 * 🖥️ **Frontend**: Clean, responsive UI built with Next.js + TailwindCSS.
-* ⚡ **Backend**: Serverless APIs powered by Netlify Functions.
+* ⚡ **Backend**: Serverless APIs powered by Vercel Functions.
 * 📦 **Database Options**: Netlify Postgres, Supabase, or MongoDB Atlas.
 * 🔐 **Authentication**: Secure user login/signup (JWT or Supabase Auth).
 * 🎯 **Gamified Learning**: Coding challenges, progress tracking, leaderboards.
-* 🌍 **Deployment**: One-click full-stack deployment on Netlify.
+
 * ♿ **Accessibility**: WCAG 2.1 AA compliance for inclusive design.
 
 ---
@@ -35,7 +35,7 @@ Built with **Next.js, TailwindCSS, Node.js, and Netlify Functions**, it combines
 * **Backend**: [Netlify Functions](https://docs.netlify.com/functions/overview/), [Node.js](https://nodejs.org/)
 * **Database**: [Netlify Postgres](https://docs.netlify.com/), [Supabase](https://supabase.com/), [MongoDB Atlas](https://www.mongodb.com/atlas)
 * **Authentication**: Supabase Auth / JWT
-* **Deployment & Hosting**: [Netlify](https://www.netlify.com/)
+* **Deployment & Hosting**: [Vercel](https://www.vercel.com/)
 * **Version Control**: Git + GitHub
 * **Testing**: [Jest](https://jestjs.io/), [Vitest](https://vitest.dev/)
 
@@ -61,7 +61,7 @@ npm install
 Frontend + backend together:
 
 ```bash
-netlify dev
+vercel dev
 ```
 
 This runs Next.js locally and proxies API requests to your serverless functions.
@@ -69,7 +69,7 @@ This runs Next.js locally and proxies API requests to your serverless functions.
 ### 4. Deploy to Netlify
 
 1. Push your repo to GitHub.
-2. Go to [Netlify](https://app.netlify.com/) → **New site from Git**.
+2. Go to [Netlify](https://app.vercel.com/) → **New site from Git**.
 3. Select your repo.
 4. Configure build settings:
 
@@ -83,7 +83,7 @@ This runs Next.js locally and proxies API requests to your serverless functions.
      ```
      .next
      ```
-5. Add environment variables in Netlify Dashboard.
+5. Add environment variables in Vercel Dashboard.
 6. Deploy 🚀
 
 ---
@@ -99,7 +99,7 @@ SUPABASE_KEY=your_supabase_key
 JWT_SECRET=your_secret_key
 ```
 
-On Netlify, add the same in:
+On Vercel, add the same in:
 **Site Settings → Build & Deploy → Environment → Environment Variables**.
 
 ---
