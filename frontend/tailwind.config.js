@@ -6,7 +6,12 @@ module.exports = {
   ],
   theme: {
     extend: {
-      // You can add custom stuff here later if needed
+      colors: {
+        brand: {
+          DEFAULT: "#3b82f6", // blue-500
+          dark: "#1e40af",    // blue-900
+        },
+      },
     },
   },
   plugins: [],
