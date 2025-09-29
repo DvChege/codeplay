@@ -2,25 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Global font */
+/* Global font and background */
 body {
   @apply font-sans bg-gradient-to-br from-blue-50 to-purple-100 min-h-screen;
 }
 
-/* Optional: smooth scroll for better UX */
+/* Smooth scrolling */
 html {
   scroll-behavior: smooth;
 }
 
-/* Define link style inside a layer so Tailwind picks up custom colors */
-@layer base {
-  a {
+/* Default link style */
+a {
   @apply text-blue-600 hover:text-blue-800 no-underline;
 }
 
-}
-
-/* Optional: code styling for code blocks */
+/* Code block styling */
 code {
   @apply font-mono bg-gray-100 p-1 rounded text-sm;
 }
