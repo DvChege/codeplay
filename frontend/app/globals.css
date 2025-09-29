@@ -2,17 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Global font */
 body {
   @apply font-sans bg-gradient-to-br from-blue-50 to-purple-100 min-h-screen;
 }
 
-/* Smooth scroll */
 html {
   scroll-behavior: smooth;
 }
 
-/* Default link style (must be inside @layer) */
+/* Custom classes MUST be inside @layer */
 @layer components {
   a {
     @apply text-brand hover:text-brand-dark no-underline;
