@@ -15,8 +15,9 @@ html {
 /* Define link style inside a layer so Tailwind picks up custom colors */
 @layer base {
   a {
-    @apply text-brand hover:text-brand-dark no-underline;
-  }
+  @apply text-blue-600 hover:text-blue-800 no-underline;
+}
+
 }
 
 /* Optional: code styling for code blocks */
