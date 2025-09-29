@@ -8,8 +8,9 @@ module.exports = {
     extend: {
       colors: {
         brand: {
-          DEFAULT: "#1d4ed8", // your main brand color (blue-600)
-          dark: "#1e40af",    // darker shade (blue-800)
+          light: "#A78BFA",     // light purple
+          DEFAULT: "#7C3AED",   // main brand purple
+          dark: "#4C1D95",      // dark purple
         },
       },
     },
