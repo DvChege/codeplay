@@ -1,14 +1,15 @@
-/** @type {import('tailwindcss').Config} */
+// tailwind.config.js
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
       colors: {
-        brand: "#4F46E5",       // Indigo-600
-        "brand-dark": "#3730A3" // Indigo-800
+        brand: "#1D4ED8",        // blue (change to your brand color)
+        "brand-dark": "#1E40AF", // darker shade (customize as needed)
       },
     },
   },
