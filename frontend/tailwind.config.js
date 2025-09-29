@@ -7,8 +7,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        brand: "#4F46E5",      // Indigo-600
-        "brand-dark": "#3730A3", // Indigo-800
+        brand: "#4F46E5",       // Indigo-600
+        "brand-dark": "#3730A3" // Indigo-800
       },
     },
   },
