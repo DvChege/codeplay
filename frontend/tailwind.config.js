@@ -1,4 +1,4 @@
-// tailwind.config.js
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        brand: "#1D4ED8",        // blue (change to your brand color)
-        "brand-dark": "#1E40AF", // darker shade (customize as needed)
+        brand: "#1D4ED8",        // customize this to your brand color
+        "brand-dark": "#1E40AF", // darker shade
       },
     },
   },
