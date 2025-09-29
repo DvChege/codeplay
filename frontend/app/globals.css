@@ -10,7 +10,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Custom classes MUST be inside @layer */
 @layer components {
   a {
     @apply text-brand hover:text-brand-dark no-underline;
